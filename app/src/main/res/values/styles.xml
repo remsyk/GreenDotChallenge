@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="searchViewStyle">@style/SearchStyle</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/ic_input_24px</item>
+        <item name="closeIcon">@drawable/ic_input_24px</item>
+        <item name="android:searchIcon">@drawable/ic_input_24px</item>
+        <item name="android:queryBackground">@color/yellow</item>
+        <item name="submitBackground">@color/aqua</item>
+
+
+
+    </style>
+
+    <style name="SearchStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="editTextColor">#FFFFFF</item>
+        <item name="android:searchIcon">@drawable/ic_input_24px</item>
+        <item name="android:closeIcon">@drawable/ic_input_24px</item>
+        <item name="android:searchHintIcon">@null</item> // add desired drawble, set null for no background
+    </style>
+
+</resources>
